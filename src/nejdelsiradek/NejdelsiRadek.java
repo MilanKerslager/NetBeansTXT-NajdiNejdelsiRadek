@@ -30,6 +30,7 @@ public class NejdelsiRadek {
                     obsahnejdelšíhořádku = radek;
                 }
             }
+            br.close();
             System.out.println("Nejdelší byl řádek číslo "+číslonejdelšíhořádku);
             System.out.println("Nejdelší řádek obsahoval tento text:");
             System.out.println(obsahnejdelšíhořádku);
